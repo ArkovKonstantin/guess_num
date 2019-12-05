@@ -1,0 +1,20 @@
+localhost.36830 > localhost.8000: Flags [S], seq 1813225745, win 65495, options [mss 65495,sackOK,TS val 28156773 ecr 0,nop,wscale 7], length 0
+localhost.8000 > localhost.36830: Flags [S.], seq 334971170, ack 1813225746, win 65483, options [mss 65495,sackOK,TS val 28156773 ecr 28156773,nop,wscale 7], length 0
+localhost.36830 > localhost.8000: Flags [.], ack 1, win 512, options [nop,nop,TS val 28156773 ecr 28156773], length 0
+
+localhost.36830 > localhost.8000: Flags [P.], seq 1:2, ack 1, win 512, options [nop,nop,TS val 28253952 ecr 28156773], length 1
+localhost.8000 > localhost.36830: Flags [.], ack 2, win 512, options [nop,nop,TS val 28253952 ecr 28253952], length 0
+localhost.8000 > localhost.36830: Flags [P.], seq 1:5, ack 2, win 512, options [nop,nop,TS val 28253952 ecr 28253952], length 4
+localhost.36830 > localhost.8000: Flags [.], ack 5, win 512, options [nop,nop,TS val 28253953 ecr 28253952], length 0
+
+localhost.36830 > localhost.8000: Flags [P.], seq 2:3, ack 5, win 512, options [nop,nop,TS val 28410596 ecr 28253952], length 1
+localhost.8000 > localhost.36830: Flags [P.], seq 5:9, ack 3, win 512, options [nop,nop,TS val 28410596 ecr 28410596], length 4
+localhost.36830 > localhost.8000: Flags [.], ack 9, win 512, options [nop,nop,TS val 28410596 ecr 28410596], length 0
+
+localhost.36830 > localhost.8000: Flags [P.], seq 3:4, ack 9, win 512, options [nop,nop,TS val 28502002 ecr 28410596], length 1
+localhost.8000 > localhost.36830: Flags [P.], seq 9:16, ack 4, win 512, options [nop,nop,TS val 28502002 ecr 28502002], length 7
+localhost.36830 > localhost.8000: Flags [.], ack 16, win 512, options [nop,nop,TS val 28502002 ecr 28502002], length 0
+
+localhost.8000 > localhost.36830: Flags [F.], seq 16, ack 4, win 512, options [nop,nop,TS val 28502003 ecr 28502002], length 0
+localhost.36830 > localhost.8000: Flags [F.], seq 4, ack 16, win 512, options [nop,nop,TS val 28502003 ecr 28502002], length 0
+localhost.8000 > localhost.36830: Flags [.], ack 5, win 512, options [nop,nop,TS val 28502003 ecr 28502003], length 0
